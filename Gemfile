@@ -43,3 +43,18 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'haml'
+gem 'haml-rails'
+gem 'nokogiri'  
+
+# Geokit
+gem 'geokit'
+# Issue here http://stackoverflow.com/questions/30115175/geokit-issue-could-not-find-generator
+gem 'geokit-rails'
+# gem 'geokit-rails', github: 'geokit/geokit-rails'
+
+# CSV processor
+gem 'smarter_csv', require: false
+
+# Google Map handler
+gem 'gmaps4rails'
