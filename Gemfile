@@ -58,3 +58,6 @@ gem 'smarter_csv', require: false
 
 # Google Map handler
 gem 'gmaps4rails'
+
+# DRY responders for API
+gem 'responders'
