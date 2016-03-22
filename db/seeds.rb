@@ -5,3 +5,11 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+require 'smarter_csv'
+
+SmarterCSV.process ( "#{Rails.root.join('db', 'data')}/waste_tss.new.csv") do |chunk|
+  chunk.each do |data_hash|
+    WasteTss.create!(data_hash)
+  end
+end
