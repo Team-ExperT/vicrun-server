@@ -55,4 +55,9 @@ Rails.application.routes.draw do
   #   end
 
   get '/page/dataset', to: 'pages#dataset'
+
+  scope :api, defaults: { :format => 'json' } do
+    get '/index', to: 'api/wastes#index'
+    get '/get_regions', to: 'api/wastes#get_regions'
+  end
 end
