@@ -1,0 +1,52 @@
+/ only if you need custom infoboxes
+%div{:style => "width: 1800px;"}
+  #map{:style => "width: 1800px; height: 800px;"}
+
+%table{:border => 1}
+  %tr
+    %td id
+    %td area
+    %td region
+    %td n
+    %td min
+    %td p25
+    %td p50
+    %td p75
+    %td max
+    %td lat
+    %td lng
+  - @waste.each do |w|
+    %tr
+      %td
+        = w.id
+      %td
+        = w.area
+      %td
+        = w.region
+      %td
+        = w.n
+      %td
+        = w.min
+      %td
+        = w.p25
+      %td
+        = w.p50
+      %td
+        = w.p75
+      %td
+        = w.max
+      %td
+        = w.latitude
+      %td
+        = w.longitude
+
+:javascript
+  $( document ).ready(function() {
+    handler = Gmaps.build('Google');
+    handler.buildMap({ provider: {}, internal: {id: 'map'}}, function(){
+      //markers = handler.addMarkers(#{raw @hash.to_json});
+      markers = handler.addMarkers(#{raw @hash.to_json});
+      handler.bounds.extendWith(markers);
+      handler.fitMapToBounds();
+    });
+  });
