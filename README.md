@@ -16,7 +16,7 @@ Install [Docker](https://docs.docker.com/windows/) for your machine. It will ins
 ### 2. Clone project
 
 - Open Docker Quickstart Terminal. Wait until the terminal is ready.
-- Clone the project by typing `git clone git@github.com:Team-ExperT/vicsurv_server.git`
+- Clone the project by typing `git clone https://github.com/Team-ExperT/vicsurv-server.git`
 - Change to the folder by typing `cd vicsurv_server`
 - Build Docker's containers by typing `docker-compose build`. It takes a while.
 - Start the containers by typing `docker-compose up`
