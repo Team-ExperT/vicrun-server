@@ -1,4 +1,4 @@
-# vicsurv_server
+# vicsurv-server
 The web service server for VicSurv. It does:
 - Maintain dataset ([Water quality](http://www.melbournewater.com.au/waterdata/riverhealthdata/waterwayquality/Pages/Waterway-water-quality-data.aspx))
 - Store players' account
