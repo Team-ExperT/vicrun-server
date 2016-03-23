@@ -5,15 +5,13 @@ class Api::WastesController < ApplicationController
     render text: 'hello world.'
   end
 
-  def get_regions
-    regions = WasteTss.select(:area).distinct
+  def get_areas
+    areas = WasteTss.select(:area).distinct
 
-    # render json: regions
-    
-    # respond_to do |format|
-    #   format.json { render json: regions }
-    #   format.xml  { render xml: regions }
-    # end
+    respond_with(areas)
+  end
+  def get_regions
+    regions = WasteTss.where(area: params[:area_name])
 
     respond_with(regions)
   end

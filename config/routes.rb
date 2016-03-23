@@ -58,6 +58,7 @@ Rails.application.routes.draw do
 
   scope :api, defaults: { :format => 'json' } do
     get '/index', to: 'api/wastes#index'
-    get '/get_regions', to: 'api/wastes#get_regions'
+    get '/get_areas', to: 'api/wastes#get_areas'
+    get '/get_regions/:area_name', to: 'api/wastes#get_regions'
   end
 end
