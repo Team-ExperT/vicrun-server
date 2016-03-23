@@ -17,7 +17,7 @@ Install [Docker](https://docs.docker.com/windows/) for your machine. It will ins
 
 - Open Docker Quickstart Terminal. Wait until the terminal is ready.
 - Clone the project by typing `git clone https://github.com/Team-ExperT/vicsurv-server.git`
-- Change to the folder by typing `cd vicsurv_server`
+- Change to the folder by typing `cd vicsurv-server`
 - Build Docker's containers by typing `docker-compose build`. It takes a while.
 - Start the containers by typing `docker-compose up`
 - Open Kitematic and you will see `vicsurvserver_db_1` and `vicsurvserver_web_1` are running.
@@ -27,7 +27,7 @@ Install [Docker](https://docs.docker.com/windows/) for your machine. It will ins
 
 - Open Docker Quickstart Terminal.
 - Make sure container `vicsurvserver_db_1` and `vicsurvserver_web_1` are running.
-- Go to project's folder by typing `cd ~/vicsurv_server`
+- Go to project's folder by typing `cd ~/vicsurv-server`
 - Create database, tables and import dataset by typing `docker exec vicsurvserver_web_1 rake db:setup db:seed`
 - Make sure no error message is arised.
 
