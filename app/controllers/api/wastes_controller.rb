@@ -6,12 +6,12 @@ class Api::WastesController < ApplicationController
   end
 
   def get_areas
-    areas = WasteTss.select(:area).distinct
+    areas = WasteTss.select(:area_id, :area).distinct
 
     respond_with(areas)
   end
   def get_regions
-    regions = WasteTss.where(area: params[:area_name])
+    regions = WasteTss.where(area_id: params[:area_name])
 
     respond_with(regions)
   end

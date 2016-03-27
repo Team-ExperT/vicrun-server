@@ -19,11 +19,13 @@ namespace :dataset do
       if index == 0
         waste << "latitude"
         waste << "longitude"
+        waste << "area_id"
       else
         coord = GoogleGeocoder.geocode(waste[1] + ', Victoria, Australia')
         if coord.success
           waste << coord.lat
           waste << coord.lng
+          waste << waste[0].delete(' ')
         end
       end
     end
@@ -31,6 +33,7 @@ namespace :dataset do
 
   task write: :environment do
     puts "Writing output."
+    # puts @wastes.to_yaml
     CSV.open("#{Rails.root.join('db', 'data')}/waste_tss.new.csv", 'w') do |csv_object|
       @wastes.each do |row_array|
         csv_object << row_array
