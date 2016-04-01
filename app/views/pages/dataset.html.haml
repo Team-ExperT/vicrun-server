@@ -7,38 +7,56 @@
     %td id
     %td area
     %td region
-    %td n
-    %td min
-    %td p25
-    %td p50
-    %td p75
-    %td max
+    %td am_n
+    %td am_min
+    %td am_p25
+    %td am_p50
+    %td am_p75
+    %td am_max
+    %td ts_n
+    %td ts_min
+    %td ts_p25
+    %td ts_p50
+    %td ts_p75
+    %td ts_max
     %td lat
     %td lng
-  - @waste.each do |w|
+  - @qualities.each do |q|
     %tr
       %td
-        = w.id
+        = q.id
       %td
-        = w.area
+        = q.area
       %td
-        = w.region
+        = q.region
       %td
-        = w.n
+        = q.am_n
       %td
-        = w.min
+        = q.am_min
       %td
-        = w.p25
+        = q.am_p25
       %td
-        = w.p50
+        = q.am_p50
       %td
-        = w.p75
+        = q.am_p75
       %td
-        = w.max
+        = q.am_max
       %td
-        = w.latitude
+        = q.ts_n
       %td
-        = w.longitude
+        = q.ts_min
+      %td
+        = q.ts_p25
+      %td
+        = q.ts_p50
+      %td
+        = q.ts_p75
+      %td
+        = q.ts_max
+      %td
+        = q.latitude
+      %td
+        = q.longitude
 
 :javascript
   $( document ).ready(function() {

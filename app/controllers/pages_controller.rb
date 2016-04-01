@@ -1,12 +1,12 @@
 class PagesController < ApplicationController
   def dataset
-    @waste = WasteTss.all
+    @qualities = WaterQuality.all
 
     # Load markers onto map
-    @hash = Gmaps4rails.build_markers(@waste) do |waste, marker|
-      marker.lat waste.latitude
-      marker.lng waste.longitude
-      marker.infowindow waste.area + ' - ' + waste.region
+    @hash = Gmaps4rails.build_markers(@qualities) do |quality, marker|
+      marker.lat quality.latitude
+      marker.lng quality.longitude
+      marker.infowindow quality.area + ' - ' + quality.region
     end
   end
 end

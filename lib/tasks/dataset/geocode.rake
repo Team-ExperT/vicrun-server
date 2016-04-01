@@ -9,23 +9,23 @@ namespace :dataset do
   end
 
   task read: :environment do
-    file = "#{Rails.root.join('db', 'data')}/waste_tss.csv"
+    file = "#{Rails.root.join('db', 'data')}/water_quality.csv"
 
     puts "Opening file."
-    @wastes = CSV.read(file)
+    @qualities = CSV.read(file)
 
     puts "Geocoding."
-    @wastes.each_with_index do |waste, index|
+    @qualities.each_with_index do |quality, index|
       if index == 0
-        waste << "latitude"
-        waste << "longitude"
-        waste << "area_id"
+        quality << "latitude"
+        quality << "longitude"
+        quality << "area_id"
       else
-        coord = GoogleGeocoder.geocode(waste[1] + ', Victoria, Australia')
+        coord = GoogleGeocoder.geocode(quality[1] + ', Victoria, Australia')
         if coord.success
-          waste << coord.lat
-          waste << coord.lng
-          waste << waste[0].delete(' ')
+          quality << coord.lat
+          quality << coord.lng
+          quality << quality[0].delete(' ')
         end
       end
     end
@@ -33,9 +33,9 @@ namespace :dataset do
 
   task write: :environment do
     puts "Writing output."
-    # puts @wastes.to_yaml
-    CSV.open("#{Rails.root.join('db', 'data')}/waste_tss.new.csv", 'w') do |csv_object|
-      @wastes.each do |row_array|
+    # puts @qualities.to_yaml
+    CSV.open("#{Rails.root.join('db', 'data')}/water_quality.new.csv", 'w') do |csv_object|
+      @qualities.each do |row_array|
         csv_object << row_array
       end
     end

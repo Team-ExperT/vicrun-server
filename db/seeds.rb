@@ -8,8 +8,8 @@
 
 require 'smarter_csv'
 
-SmarterCSV.process ( "#{Rails.root.join('db', 'data')}/waste_tss.new.csv") do |chunk|
+SmarterCSV.process ( "#{Rails.root.join('db', 'data')}/water_quality.new.csv") do |chunk|
   chunk.each do |data_hash|
-    WasteTss.create!(data_hash)
+    WaterQuality.create!(data_hash)
   end
 end

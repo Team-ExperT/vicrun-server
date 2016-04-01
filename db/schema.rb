@@ -11,25 +11,31 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160327234036) do
+ActiveRecord::Schema.define(version: 20160401010930) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "waste_tsses", force: :cascade do |t|
+  create_table "water_qualities", force: :cascade do |t|
     t.string   "area"
     t.string   "region"
-    t.integer  "n"
-    t.float    "min"
-    t.float    "p25"
-    t.float    "p50"
-    t.float    "p75"
-    t.float    "max"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "am_n"
+    t.float    "am_min"
+    t.float    "am_p25"
+    t.float    "am_p50"
+    t.float    "am_p75"
+    t.float    "am_max"
+    t.integer  "ts_n"
+    t.float    "ts_min"
+    t.float    "ts_p25"
+    t.float    "ts_p50"
+    t.float    "ts_p75"
+    t.float    "ts_max"
     t.float    "latitude"
     t.float    "longitude"
     t.string   "area_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
