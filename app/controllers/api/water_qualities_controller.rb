@@ -7,8 +7,17 @@ class Api::WaterQualitiesController < ApplicationController
 
   def get_areas
     areas = WaterQuality.select(:area_id, :area).distinct
+    
+    new_areas = []
+    areas.each do |area|
+      new_area = {
+        :area_id => area.area_id,
+        :area    => area.area
+      }
+      new_areas << new_area
+    end
 
-    respond_with(areas)
+    respond_with(new_areas)
   end
 
   def get_regions
