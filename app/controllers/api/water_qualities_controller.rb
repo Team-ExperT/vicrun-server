@@ -18,6 +18,6 @@ class Api::WaterQualitiesController < ApplicationController
   end
 
   def get_current_version
-    respond_with({'version':1.0})
+    respond_with({'version' => 1.0})
   end
 end
