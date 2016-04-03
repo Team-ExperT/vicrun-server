@@ -13,6 +13,7 @@
     %td ts_p50
     %td lat
     %td lng
+    %td area_id
   - @qualities.each do |q|
     %tr
       %td
@@ -33,6 +34,8 @@
         = q.latitude
       %td
         = q.longitude
+      %td
+        = q.area_id
 
 :javascript
   $( document ).ready(function() {
