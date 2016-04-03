@@ -7,18 +7,10 @@
     %td id
     %td area
     %td region
-    %td am_n
-    %td am_min
-    %td am_p25
-    %td am_p50
-    %td am_p75
-    %td am_max
-    %td ts_n
-    %td ts_min
-    %td ts_p25
+    %td ni_p50
+    %td ox_p50
+    %td ph_p50
     %td ts_p50
-    %td ts_p75
-    %td ts_max
     %td lat
     %td lng
   - @qualities.each do |q|
@@ -30,29 +22,13 @@
       %td
         = q.region
       %td
-        = q.am_n
+        = q.ni_p50
       %td
-        = q.am_min
+        = q.ox_p50
       %td
-        = q.am_p25
-      %td
-        = q.am_p50
-      %td
-        = q.am_p75
-      %td
-        = q.am_max
-      %td
-        = q.ts_n
-      %td
-        = q.ts_min
-      %td
-        = q.ts_p25
+        = q.ph_p50
       %td
         = q.ts_p50
-      %td
-        = q.ts_p75
-      %td
-        = q.ts_max
       %td
         = q.latitude
       %td
