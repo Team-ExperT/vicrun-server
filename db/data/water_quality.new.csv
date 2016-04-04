@@ -1,130 +1,130 @@
 area,region,ni_p50,ox_p50,ph_p50,ts_min,ts_p50,ts_max,latitude,longitude,area_id
-Dandenong Catchment,"Blind Creek at Cathies Lane, Wantirna South",1.4,7,0.09,6,14,31,-37.876657,145.2154315,DandenongCatchment
-Dandenong Catchment,"Boggy Creek at Lathams Rd, Carrum Downs",1.8,8,0.10,4,12,96,-38.0981878,145.1631294,DandenongCatchment
-Dandenong Catchment,"Corhanwarrabul Creek at Wellington Road, Rowville",1.5,8,0.11,8,39,140,-37.9284271,145.2356032,DandenongCatchment
-Dandenong Catchment,"Bungalook Creek (Croydon MD) at walkway between Bungalook Rd West and East, Bayswater North",2.8,5,0.14,4,14,43,-37.8242081,145.296783,DandenongCatchment
-Dandenong Catchment,"Dandenong Creek at Sheffield Road, Doongalla Forest",1.6,10,0.04,4,19,67,-37.4713077,144.7851531,DandenongCatchment
-Dandenong Catchment,"Dandenong Creek at Boronia Road, Wantirna",1.4,9,0.08,4,8,24,-37.8528374,145.2435448,DandenongCatchment
-Dandenong Catchment,"Dandenong Creek at Stud Road, Dandenong North",1.2,8,0.08,13,35,46,-37.95231649999999,145.226803,DandenongCatchment
-Dandenong Catchment,"Dandenong Creek at Pillars Crossing, Dandenong South",1.3,8,0.08,15,26,56,-38.0186341,145.2155859,DandenongCatchment
-Dandenong Catchment,"Elster Creek at Cochrane Street, Elwood",2.5,11,0.14,4,8,60,-37.882195,144.983109,DandenongCatchment
-Dandenong Catchment,"Eumemmerring Creek at Worsley Road, Bangholme",1.2,8,0.10,8,18,40,-38.0514316,145.1846637,DandenongCatchment
-Dandenong Catchment,"Ferny Creek upstream of confluence with Monbulk Ck, Knoxfield",1.0,8,0.08,1,4,9,-37.894318,145.249268,DandenongCatchment
-Dandenong Catchment,"Hallam Main Drain at South Gippsland Highway, Hampton Park",1.2,7,0.09,9,24,40,-38.0574748,145.2623673,DandenongCatchment
-Dandenong Catchment,"Heatherton Drain at Bear St, Mordialloc",1.3,9,0.21,4,7,15,-38.0052611,145.0916746,DandenongCatchment
-Dandenong Catchment,"Kananook Creek at Wells Street, Frankston",0.6,6,0.12,11,31,58,-38.1426537,145.1200843,DandenongCatchment
-Dandenong Catchment,"Monbulk Creek at a track off Karoo Road, Rowville",1.1,9,0.08,8,16,44,-37.9055182,145.2652083,DandenongCatchment
-Dandenong Catchment,"Mordialloc Creek at Wells Road, Mordialloc",1.3,7,0.15,9,26,44,-38.0109596,145.1013108,DandenongCatchment
-Dandenong Catchment,"National Water Sports Centre outlet, Bangholme",1.3,9,0.09,20,26,44,-38.0373707,145.1870226,DandenongCatchment
-Maribyrnong Catchment,"Barringo Creek at Wooling Road, Macedon",0.3,9,0.03,6,8,32,-37.4285055,144.6160327,MaribyrnongCatchment
-Maribyrnong Catchment,"Deep Creek at Kennedys Lane, Romsey",0.6,10,0.02,1,3,6,-37.3592978,144.7440239,MaribyrnongCatchment
-Maribyrnong Catchment,"Deep Creek at end of Kinnear Road, Michelam",0.6,9,0.03,1,4,7,-37.4713077,144.7851531,MaribyrnongCatchment
-Maribyrnong Catchment,"Deep Creek at Bulla Road, Bulla",0.6,8,0.03,3,5,12,-37.6379528,144.8064424,MaribyrnongCatchment
-Maribyrnong Catchment,"Jacksons Creek upstream Sunbury-Riddells Rd, Sunbury",0.5,8,0.03,1,1,6,-37.5794919,144.7288981,MaribyrnongCatchment
-Maribyrnong Catchment,Jacksons Creek at bridge upstream Sunbury Rd,0.6,9,0.03,3,5,47,-37.4713077,144.7851531,MaribyrnongCatchment
-Maribyrnong Catchment,"Jacksons Creek at Organ Pipes NP, at walkway ~200 u/s Rosette Rock",0.9,9,0.04,5,7,24,-37.4713077,144.7851531,MaribyrnongCatchment
-Maribyrnong Catchment,"Maribyrnong River at Arundel Rd, Keilor",0.7,8,0.04,6,9,15,-37.70313549999999,144.8331122,MaribyrnongCatchment
-Maribyrnong Catchment,"Maribyrnong River at Brimbank Park Ford (upstream Taylors Creek), Keilor",0.8,7,0.05,8,10,20,-37.7160208,144.816995,MaribyrnongCatchment
-Maribyrnong Catchment,"Maribyrnong River at Canning Street Ford, Avondale Heights",0.8,7,0.06,6,15,20,-37.76421,144.862839,MaribyrnongCatchment
-Maribyrnong Catchment,"Maribyrnong River at end of Newsom St. 500m d/s of Ascot Vale MD, Ascot Vale West",0.6,8,0.13,7,24,82,-37.4713077,144.7851531,MaribyrnongCatchment
-Maribyrnong Catchment,Riddells Creek upstream Gisbourne-Kilmore Rd,0.4,9,0.02,1,4,30,-37.4713077,144.7851531,MaribyrnongCatchment
-Maribyrnong Catchment,"Steele Creek at Rose Avenue, Niddrie",0.6,9,0.04,1,5,13,-37.7470012,144.8821107,MaribyrnongCatchment
-Maribyrnong Catchment,"Stony Creek at Bena Street, Yarraville",2.3,11,0.45,7,13,82,-37.8201919,144.8810246,MaribyrnongCatchment
-Maribyrnong Catchment,"Taylors Creek at walkway downstream Green Gully Road, Kealba",0.7,9,0.05,3,6,18,-37.7278695,144.820262,MaribyrnongCatchment
-Werribee Catchment,"Cherry MD upstream Kororoit Creek Road, Altona North",1.9,3,0.48,2,8,27,-37.8482409,144.818591,WerribeeCatchment
-Werribee Catchment,"Kororoit Creek at Millbank Drive, Deer Park",0.5,7,0.04,1,4,16,-37.7653474,144.7692739,WerribeeCatchment
-Werribee Catchment,"Kororoit Creek at Racecourse Road Ford, Altona",1.4,8,0.14,11,36,60,-37.8694706,144.8302461,WerribeeCatchment
-Werribee Catchment,"Laverton Creek at track off Valente St, d/s Kayes Drain, u/s weir, Altona Meadows",0.5,8,0.08,2,10,42,-37.8828917,144.7850113,WerribeeCatchment
-Werribee Catchment,Lerderderg River at O'Brien Road,0.3,9,0.02,1,3,13,-37.4713077,144.7851531,WerribeeCatchment
-Werribee Catchment,"Lerderderg River at Bacchus March Road, Bacchus Marsh",0.3,6,0.02,4,6,21,-37.6518743,144.4521593,WerribeeCatchment
-Werribee Catchment,"Little River at You Yangs Rd, Little River",0.7,7,0.04,6,6,6,-37.9592076,144.4821879,WerribeeCatchment
-Werribee Catchment,"Lollypop Creek upstream Black Forest Road, Wyndham Vale",0.7,4,0.10,5,8,22,-37.9002649,144.6164265,WerribeeCatchment
-Werribee Catchment,"Skeleton Creek at Ayr Street, Laverton",0.7,6,0.11,4,14,25,-37.86201519999999,144.7697949,WerribeeCatchment
-Werribee Catchment,"Werribee River opposite end of McGregor Court (Lions Club Reserve), Maddingley",0.4,9,0.03,5,15,78,-37.687273,144.433447,WerribeeCatchment
-Werribee Catchment,"Werribee River at Old Melbourne Rd, Ballan",0.5,8,0.02,1,3,9,-37.5967768,144.1998141,WerribeeCatchment
-Werribee Catchment,"Werribee River upstream weir at Riversdale Road, Werribee",0.5,7,0.05,2,5,12,-37.8726159,144.6540309,WerribeeCatchment
-Werribee Catchment,"Werribee River at Cobbledicks Ford Rd,",0.6,9,0.05,8,12,18,-37.4713077,144.7851531,WerribeeCatchment
-Werribee Catchment,"Yangardook Creek at Bridge Road, Melton South",0.7,5,0.10,4,10,16,-37.7148238,144.5854163,WerribeeCatchment
-Westernport Catchment,"Ararat Creek at Nar Nar Goon-Longwarry Road, Nar Nar Goon",0.8,9,0.05,3,6,19,-38.0821308,145.5730091,WesternportCatchment
-Westernport Catchment,"Balcombe Creek at footbridge off Uralla Drive, Mt Martha",1.2,8,0.04,1,7,15,-38.2667039,145.0324753,WesternportCatchment
-Westernport Catchment,Bass River at Loch-Poowong Road,4.8,10,0.17,19,19,19,-38.3687135,145.7060804,WesternportCatchment
-Westernport Catchment,Bass River at McGrath Road,1.0,4,0.14,1,13,26,-37.4713077,144.7851531,WesternportCatchment
-Westernport Catchment,"Bass River at School Road, Bass",1.3,7,0.13,7,28,67,-38.4833748,145.4670322,WesternportCatchment
-Westernport Catchment,"Bunyip River at North Labertouche Road, Labertouche",0.7,10,0.03,6,10,40,-37.9833916,145.7568071,WesternportCatchment
-Westernport Catchment,"Bunyip River d/s Cannibal Creek, Longwarry North",0.6,10,0.04,8,11,19,-38.0856676,145.7637121,WesternportCatchment
-Westernport Catchment,"Bunyip Main Drain at Little Road, Iona",0.8,9,0.10,10,17,27,-38.1278583,145.6865307,WesternportCatchment
-Westernport Catchment,"Bunyip River at Healesville Koo-Wee-Rup Road, Koo-Wee-Rup",0.9,9,0.10,10,25,49,-38.1823506,145.4794766,WesternportCatchment
-Westernport Catchment,"Cardinia Creek at Chadwick Road, Upper Beaconsfield",0.5,9,0.03,5,8,25,-38.004643,145.409755,WesternportCatchment
-Westernport Catchment,"Cardinia Creek at Ballarto Road, Cardinia",0.8,8,0.05,6,17,24,-38.1460766,145.4242731,WesternportCatchment
-Westernport Catchment,"Chinamans Creek at Eastborne Road, Rosebud West",1.9,5,0.10,3,6,110,-38.3632675,144.8776139,WesternportCatchment
-Westernport Catchment,"Deep Creek at Ballarto Road, Rythdale",1.4,6,0.27,21,42,160,-38.1386501,145.4665466,WesternportCatchment
-Westernport Catchment,"Diamond Creek at Ellis Road, Tonimbuk",0.6,9,0.04,2,16,26,-38.0264041,145.7435073,WesternportCatchment
-Westernport Catchment,"Dunns Creek at Marine Drive, Safety Beach",0.6,7,0.04,1,4,8,-38.317895,144.9878402,WesternportCatchment
-Westernport Catchment,"Kackeraboite Creek upstream Old Mornington Rd, Mt Eliza",0.9,9,0.04,1,4,10,-38.1734389,145.0942742,WesternportCatchment
-Westernport Catchment,King Parrot Creek upstream Koo-Wee Rup-Longwarry Rd,1.6,8,0.11,12,36,120,-38.1863027,145.6272573,WesternportCatchment
-Westernport Catchment,"Labertouche Creek at Draytons Road, Labertouche",0.7,9,0.11,1,8,26,-38.0368363,145.799908,WesternportCatchment
-Westernport Catchment,"Lang Lang River upstream Drouin-Poowong Road, Athlone",1.4,7,0.21,4,12,38,-38.2357844,145.7849898,WesternportCatchment
-Westernport Catchment,"Lang Lang River at South Gippsland Highway, Lang Lang",0.5,8,0.08,10,12,71,-38.3052193,145.5705371,WesternportCatchment
-Westernport Catchment,"Lower Gum Scrub Creek at Wenn Road, Cardinia",2.3,8,0.24,4,14,18,-38.1345126,145.4504995,WesternportCatchment
-Westernport Catchment,"Main Creek at Boneo Road, Flinders",0.6,10,0.02,1,4,10,-38.4724152,145.0037804,WesternportCatchment
-Westernport Catchment,"Merricks Creek at Bridge Street, Merricks (Beach Road)",0.9,9,0.05,3,7,120,-37.4713077,144.7851531,WesternportCatchment
-Westernport Catchment,"Minnieburn Creek at South Rd, Poowong",0.6,9,0.05,1,12,18,-38.357336,145.7537635,WesternportCatchment
-Westernport Catchment,Musk Creek upstream Koo-Wee Rup-Longwarry Rd,1.5,9,0.17,10,29,47,-38.1863027,145.6272573,WesternportCatchment
-Westernport Catchment,"Olivers Creek at Barclays Cresent, Hastings",0.8,7,0.07,1,4,10,-38.307583,145.190201,WesternportCatchment
-Westernport Catchment,"Red Bluff Creek at Bass Highway, Jam Jerrup",5.6,8,0.58,19,47,390,-38.333739,145.5536525,WesternportCatchment
-Westernport Catchment,"Sweetwater Creek at Grange Rd, Frankston South",0.7,10,0.04,1,3,10,-38.1593843,145.1073288,WesternportCatchment
-Westernport Catchment,"Tarago River at Morrisons Road, Labertouche",0.6,9,0.07,6,15,22,-38.0368363,145.799908,WesternportCatchment
-Westernport Catchment,"Toomuc Creek at Princes Highway, Pakenham",1.0,9,0.07,4,10,51,-38.0644085,145.4639837,WesternportCatchment
-Westernport Catchment,"Toomuc Creek at Ballarto Road, Rythdale",1.2,7,0.09,13,30,81,-38.1386501,145.4665466,WesternportCatchment
-Westernport Catchment,"Upper Tarago River at Elton Road, Neerim (upstream Tarago Reservoir)",1.0,10,0.03,7,12,360,-37.9992832,145.9219378,WesternportCatchment
-Westernport Catchment,"Warrangine Creek at Frankston-Flinders Road, Hastings",1.1,8,0.05,1,7,20,-38.2940731,145.1835888,WesternportCatchment
-Westernport Catchment,"Watsons Creek at Dandenong-Hastings Road, Somerville",13.2,9,0.97,3,6,28,-38.2307207,145.216374,WesternportCatchment
-Westernport Catchment,"Wylies Drain at Baxter-Tooradin Rd, Devon Meadows",13.4,5,2.40,4,28,68,-38.1974145,145.3153647,WesternportCatchment
-Yarra Catchment,"Andersons Creek at Everard Drive, Warrandyte",1.7,8,0.11,1,4,15,-37.7420996,145.2049282,YarraCatchment
-Yarra Catchment,"Big Pats Creek upstream Riverdside Drive, East Warburton",0.5,10,0.01,6,8,25,-37.741928,145.736069,YarraCatchment
-Yarra Catchment,"Bruces Creek at Beech St, Whittlesea",1.0,5,0.13,3,14,53,-37.5111669,145.1205669,YarraCatchment
-Yarra Catchment,"Brushy Creek at Lower Homestead Road, Wonga Park",3.6,9,0.11,14,26,50,-37.7259348,145.2929381,YarraCatchment
-Yarra Catchment,"Cockatoo Creek at Tschampions Road, Macclesfield",1.2,10,0.02,4,11,47,-37.8851834,145.4770078,YarraCatchment
-Yarra Catchment,"Coranderrk Creek at Healesville-Koo Wee Rup Rd, Badger Creek",0.3,10,0.02,1,2,6,-37.6922709,145.5191148,YarraCatchment
-Yarra Catchment,"Darebin Creek at Clark Road, Alphington",0.9,9,0.05,1,4,18,-37.7810539,145.0306948,YarraCatchment
-Yarra Catchment,"Diamond Creek at Strathewan Road, Cottlesbridge",0.9,8,0.04,1,7,10,-37.4713077,144.7851531,YarraCatchment
-Yarra Catchment,"Diamond Creek at Main Road, Eltham",0.9,8,0.06,8,15,40,-37.6996816,145.1075351,YarraCatchment
-Yarra Catchment,"Edgars Creek at Murray Road, Coburg",0.9,8,0.06,1,5,12,-37.7354297,144.9776807,YarraCatchment
-Yarra Catchment,"Gardiners Creek at footbridge off Barrington Drive, Ashwood",1.4,11,0.08,2,8,37,-37.863468,145.0999374,YarraCatchment
-Yarra Catchment,"Gardiners Creek at Glenferrie Road, Hawthorn",1.2,10,0.07,4,8,38,-37.8355111,145.0330127,YarraCatchment
-Yarra Catchment,"Hoddles Creek upstream Warburton Hwy, Launching Place",0.5,10,0.02,1,7,18,-37.7761214,145.578957,YarraCatchment
-Yarra Catchment,"Jumping Creek at Jumping Creek Road, Wonga Park",0.6,8,0.04,1,4,15,-37.735615,145.2605237,YarraCatchment
-Yarra Catchment,"Koonung Creek at Bulleen Road, Bulleen",1.0,7,0.09,2,8,54,-37.7809428,145.0786726,YarraCatchment
-Yarra Catchment,"Little Yarra River at Corduroy Road, Yarra Junction",0.7,10,0.03,6,12,52,-37.7758851,145.6048173,YarraCatchment
-Yarra Catchment,"McCrae Creek upstream Healesville-Koo Wee Rup Road, Yellingbo",0.6,9,0.02,8,13,63,-37.8343126,145.5167049,YarraCatchment
-Yarra Catchment,"McMahons Creek at Woods Point Road, McMahons Creek",0.4,10,0.02,1,3,6,-37.7007133,145.8313999,YarraCatchment
-Yarra Catchment,"Merri Creek at Summerhill Road, Craigieburn",0.7,8,0.05,2,5,44,-37.5710091,144.9523826,YarraCatchment
-Yarra Catchment,"Merri Creek at Roseneath Street, Yarra Bend",1.1,10,0.08,1,5,50,-37.4713077,144.7851531,YarraCatchment
-Yarra Catchment,"Moonee Ponds Creek at walk bridge in Jacana Reserve, Gladstone Park",1.2,5,0.11,1,7,14,-37.6876358,144.8863194,YarraCatchment
-Yarra Catchment,"Moonee Ponds Creek at Racecourse Road, Flemington",1.9,9,0.08,4,11,37,-37.7883911,144.9332083,YarraCatchment
-Yarra Catchment,"Mullum Mullum Creek at Deep Creek Reserve, Warrandyte",1.7,8,0.10,5,13,28,-37.738014,145.218887,YarraCatchment
-Yarra Catchment,"New Chum Creek at Valley Farm Road, Healesville",3.1,9,0.02,1,4,10,-37.6315762,145.5163193,YarraCatchment
-Yarra Catchment,"Olinda Creek upstream Hull Rd, Lilydale",1.0,9,0.02,4,9,46,-37.77600640000001,145.3532756,YarraCatchment
-Yarra Catchment,"Olinda Creek at MacIntyre Lane, Coldstream",1.6,9,0.05,12,22,32,-37.724602,145.379623,YarraCatchment
-Yarra Catchment,"O'Shannassy River at a small track off Road one, Warburton East",0.4,10,0.01,1,1,6,-37.4713077,144.7851531,YarraCatchment
-Yarra Catchment,"Pauls Creek at Healesville-Yarra Glen Road, Tarrawarra",0.9,7,0.05,10,13,33,-37.654386,145.4418698,YarraCatchment
-Yarra Catchment,"Plenty River at Kurrak Road, South Morang",0.7,8,0.05,6,10,17,-37.6513392,145.0891037,YarraCatchment
-Yarra Catchment,"Plenty River at Henty Road, View Bank",0.9,7,0.07,8,19,61,-37.4713077,144.7851531,YarraCatchment
-Yarra Catchment,"Ruffey Creek at Parker Street, Templestowe",1.4,9,0.05,1,3,16,-37.757084,145.1228573,YarraCatchment
-Yarra Catchment,"Scotchman Creek at Golfers Drive, Malvern East",1.3,10,0.06,4,6,19,-37.87672,145.0797968,YarraCatchment
-Yarra Catchment,"Shepherd Creek at Healesville-Koo Wee Rup Rd, Yellingbo",0.5,10,0.02,6,12,33,-37.8343126,145.5167049,YarraCatchment
-Yarra Catchment,"Starvation Creek upstream Woods Point Road, McMahons Creek",0.4,10,0.01,1,4,8,-37.7252602,145.7596704,YarraCatchment
-Yarra Catchment,"Steels Creek at Yarra Glen-Healesville Road, Yarra Glen",0.6,9,0.03,1,4,49,-37.5397657,145.3894499,YarraCatchment
-Yarra Catchment,"Stringybark Creek at Melba Highway, Yering",0.6,7,0.02,4,9,17,-37.6823451,145.378051,YarraCatchment
-Yarra Catchment,"Wandin Yallock Creek at Killara Road, Gruyere",1.1,9,0.02,1,6,14,-37.7387411,145.4590299,YarraCatchment
-Yarra Catchment,"Watsons Creek at Henley Road, Kangaroo Road",0.3,7,0.01,1,2,6,-37.4713077,144.7851531,YarraCatchment
-Yarra Catchment,"Watts River at Healesville-Kinglake Road, Healesville",1.0,9,0.02,3,7,70,-37.65103910000001,145.4999089,YarraCatchment
-Yarra Catchment,"Woori Yallock Creek at Macclesfield-Woori Yallock Road, Yellingbo",0.9,9,0.03,6,11,48,-37.8914151,145.5242997,YarraCatchment
-Yarra Catchment,"Woori Yallock Creek at Warburton Highway, Woori Yallock",1.0,9,0.04,12,24,37,-37.7799931,145.5303527,YarraCatchment
-Yarra Catchment,"Yarra River at McKenzie-King Drive, Millgrove",0.4,10,0.02,1,8,18,-37.7525496,145.6576584,YarraCatchment
-Yarra Catchment,"Yarra River at Don Road, Launching Place",0.6,10,0.02,3,10,29,-37.768258,145.5857101,YarraCatchment
-Yarra Catchment,"Yarra River at Maroondah Hwy, Healesville",0.6,9,0.03,11,16,22,-37.6475483,145.5335877,YarraCatchment
-Yarra Catchment,"Yarra River at Spadonis Reserve, Coldstream",0.8,8,0.04,11,18,31,-37.724602,145.379623,YarraCatchment
-Yarra Catchment,"Yarra River at Kangaroo Ground-Warrandyte Road, Warrandyte",0.7,9,0.03,6,10,20,-37.7366885,145.2225068,YarraCatchment
-Yarra Catchment,"Yarra River at Chandler Hwy, Kew",0.9,8,0.06,13,22,39,-37.7901134,145.0268242,YarraCatchment
-Yarra Catchment,"Yarra River at Princes Bridge, Melbourne",0.9,8,0.06,9,15,44,-37.8193123,144.9683058,YarraCatchment
+Dandenong,"Blind Creek, Wantirna South",1.4,7,0.09,6,14,31,-37.876657,145.2154315,Dandenong
+Dandenong,"Boggy Creek, Carrum Downs",1.8,8,0.1,4,12,96,-38.0981878,145.1631294,Dandenong
+Dandenong,"Corhanwarrabul Creek, Rowville",1.5,8,0.11,8,39,140,-37.9284271,145.2356032,Dandenong
+Dandenong,"Bungalook Creek, Bayswater North",2.8,5,0.14,4,14,43,-37.8242081,145.296783,Dandenong
+Dandenong,"Dandenong Creek, Doongalla Forest",1.6,10,0.04,4,19,67,-37.4713077,144.7851531,Dandenong
+Dandenong,"Dandenong Creek, Wantirna",1.4,9,0.08,4,8,24,-37.8528374,145.2435448,Dandenong
+Dandenong,"Dandenong Creek, Dandenong North",1.2,8,0.08,13,35,46,-37.9523165,145.226803,Dandenong
+Dandenong,"Dandenong Creek, Dandenong South",1.3,8,0.08,15,26,56,-38.0186341,145.2155859,Dandenong
+Dandenong,"Elster Creek, Elwood",2.5,11,0.14,4,8,60,-37.882195,144.983109,Dandenong
+Dandenong,"Eumemmerring Creek, Bangholme",1.2,8,0.1,8,18,40,-38.0514316,145.1846637,Dandenong
+Dandenong,"Ferny Creek, Knoxfield",1,8,0.08,1,4,9,-37.894318,145.249268,Dandenong
+Dandenong,"Hallam Main Drain, Hampton Park",1.2,7,0.09,9,24,40,-38.0574748,145.2623673,Dandenong
+Dandenong,"Heatherton Drain, Mordialloc",1.3,9,0.21,4,7,15,-38.0052611,145.0916746,Dandenong
+Dandenong,"Kananook Creek, Frankston",0.6,6,0.12,11,31,58,-38.1426537,145.1200843,Dandenong
+Dandenong,"Monbulk Creek, Rowville",1.1,9,0.08,8,16,44,-37.9055182,145.2652083,Dandenong
+Dandenong,"Mordialloc Creek, Mordialloc",1.3,7,0.15,9,26,44,-38.0109596,145.1013108,Dandenong
+Dandenong,"National Water Sports Centre outlet, Bangholme",1.3,9,0.09,20,26,44,-38.0373707,145.1870226,Dandenong
+Maribyrnong,"Barringo Creek, Macedon",0.3,9,0.03,6,8,32,-37.4285055,144.6160327,Maribyrnong
+Maribyrnong,"Deep Creek, Romsey",0.6,10,0.02,1,3,6,-37.3592978,144.7440239,Maribyrnong
+Maribyrnong,"Deep Creek, Michelam",0.6,9,0.03,1,4,7,-37.4713077,144.7851531,Maribyrnong
+Maribyrnong,"Deep Creek, Bulla",0.6,8,0.03,3,5,12,-37.6379528,144.8064424,Maribyrnong
+Maribyrnong,"Jacksons Creek, Sunbury",0.5,8,0.03,1,1,6,-37.5794919,144.7288981,Maribyrnong
+Maribyrnong,Jacksons Creek at bridge upstream Sunbury Rd,0.6,9,0.03,3,5,47,-37.4713077,144.7851531,Maribyrnong
+Maribyrnong,Jacksons Creek at Organ Pipes NP,0.9,9,0.04,5,7,24,-37.4713077,144.7851531,Maribyrnong
+Maribyrnong,"Maribyrnong River at Arundel Rd, Keilor",0.7,8,0.04,6,9,15,-37.7031355,144.8331122,Maribyrnong
+Maribyrnong,"Maribyrnong River at Brimbank Park Ford, Keilor",0.8,7,0.05,8,10,20,-37.7160208,144.816995,Maribyrnong
+Maribyrnong,"Maribyrnong River, Avondale Heights",0.8,7,0.06,6,15,20,-37.76421,144.862839,Maribyrnong
+Maribyrnong,"Maribyrnong River, Ascot Vale West",0.6,8,0.13,7,24,82,-37.4713077,144.7851531,Maribyrnong
+Maribyrnong,Riddells Creek upstream Gisbourne-Kilmore Rd,0.4,9,0.02,1,4,30,-37.4713077,144.7851531,Maribyrnong
+Maribyrnong,"Steele Creek, Niddrie",0.6,9,0.04,1,5,13,-37.7470012,144.8821107,Maribyrnong
+Maribyrnong,"Stony Creek, Yarraville",2.3,11,0.45,7,13,82,-37.8201919,144.8810246,Maribyrnong
+Maribyrnong,"Taylors Creek, Kealba",0.7,9,0.05,3,6,18,-37.7278695,144.820262,Maribyrnong
+Werribee,"Cherry MD upstream Kororoit Creek Road, Altona North",1.9,3,0.48,2,8,27,-37.8482409,144.818591,Werribee
+Werribee,"Kororoit Creek, Deer Park",0.5,7,0.04,1,4,16,-37.7653474,144.7692739,Werribee
+Werribee,"Kororoit Creek, Altona",1.4,8,0.14,11,36,60,-37.8694706,144.8302461,Werribee
+Werribee,"Laverton Creek, Altona Meadows",0.5,8,0.08,2,10,42,-37.8828917,144.7850113,Werribee
+Werribee,Lerderderg River at O'Brien Road,0.3,9,0.02,1,3,13,-37.4713077,144.7851531,Werribee
+Werribee,"Lerderderg River, Bacchus Marsh",0.3,6,0.02,4,6,21,-37.6518743,144.4521593,Werribee
+Werribee,"Little River, Little River",0.7,7,0.04,6,6,6,-37.9592076,144.4821879,Werribee
+Werribee,"Lollypop Creek, Wyndham Vale",0.7,4,0.1,5,8,22,-37.9002649,144.6164265,Werribee
+Werribee,"Skeleton Creek, Laverton",0.7,6,0.11,4,14,25,-37.8620152,144.7697949,Werribee
+Werribee,"Werribee River, Maddingley",0.4,9,0.03,5,15,78,-37.687273,144.433447,Werribee
+Werribee,"Werribee River, Ballan",0.5,8,0.02,1,3,9,-37.5967768,144.1998141,Werribee
+Werribee,Werribee River at Riversdale Road,0.5,7,0.05,2,5,12,-37.8726159,144.6540309,Werribee
+Werribee,Werribee River at Cobbledicks Ford Rd,0.6,9,0.05,8,12,18,-37.4713077,144.7851531,Werribee
+Werribee,"Yangardook Creek, Melton South",0.7,5,0.1,4,10,16,-37.7148238,144.5854163,Werribee
+Westernport,"Ararat Creek, Nar Nar Goon",0.8,9,0.05,3,6,19,-38.0821308,145.5730091,Westernport
+Westernport,"Balcombe Creek, Mt Martha",1.2,8,0.04,1,7,15,-38.2667039,145.0324753,Westernport
+Westernport,Bass River at Loch-Poowong Road,4.8,10,0.17,19,19,19,-38.3687135,145.7060804,Westernport
+Westernport,Bass River at McGrath Road,1,4,0.14,1,13,26,-37.4713077,144.7851531,Westernport
+Westernport,Bass River at School Road,1.3,7,0.13,7,28,67,-38.4833748,145.4670322,Westernport
+Westernport,"Bunyip River, Labertouche",0.7,10,0.03,6,10,40,-37.9833916,145.7568071,Westernport
+Westernport,"Bunyip River d/s Cannibal Creek, Longwarry North",0.6,10,0.04,8,11,19,-38.0856676,145.7637121,Westernport
+Westernport,"Bunyip Main Drain, Iona",0.8,9,0.1,10,17,27,-38.1278583,145.6865307,Westernport
+Westernport,"Bunyip River, Koo-Wee-Rup",0.9,9,0.1,10,25,49,-38.1823506,145.4794766,Westernport
+Westernport,"Cardinia Creek, Upper Beaconsfield",0.5,9,0.03,5,8,25,-38.004643,145.409755,Westernport
+Westernport,"Cardinia Creek, Cardinia",0.8,8,0.05,6,17,24,-38.1460766,145.4242731,Westernport
+Westernport,"Chinamans Creek, Rosebud West",1.9,5,0.1,3,6,110,-38.3632675,144.8776139,Westernport
+Westernport,"Deep Creek, Rythdale",1.4,6,0.27,21,42,160,-38.1386501,145.4665466,Westernport
+Westernport,"Diamond Creek, Tonimbuk",0.6,9,0.04,2,16,26,-38.0264041,145.7435073,Westernport
+Westernport,"Dunns Creek, Safety Beach",0.6,7,0.04,1,4,8,-38.317895,144.9878402,Westernport
+Westernport,"Kackeraboite Creek, Mt Eliza",0.9,9,0.04,1,4,10,-38.1734389,145.0942742,Westernport
+Westernport,King Parrot Creek,1.6,8,0.11,12,36,120,-38.1863027,145.6272573,Westernport
+Westernport,"Labertouche Creek, Labertouche",0.7,9,0.11,1,8,26,-38.0368363,145.799908,Westernport
+Westernport,"Lang Lang River, Athlone",1.4,7,0.21,4,12,38,-38.2357844,145.7849898,Westernport
+Westernport,"Lang Lang River, Lang Lang",0.5,8,0.08,10,12,71,-38.3052193,145.5705371,Westernport
+Westernport,"Lower Gum Scrub Creek, Cardinia",2.3,8,0.24,4,14,18,-38.1345126,145.4504995,Westernport
+Westernport,"Main Creek, Flinders",0.6,10,0.02,1,4,10,-38.4724152,145.0037804,Westernport
+Westernport,"Merricks Creek, Merricks",0.9,9,0.05,3,7,120,-37.4713077,144.7851531,Westernport
+Westernport,"Minnieburn Creek, Poowong",0.6,9,0.05,1,12,18,-38.357336,145.7537635,Westernport
+Westernport,Musk Creek,1.5,9,0.17,10,29,47,-38.1863027,145.6272573,Westernport
+Westernport,"Olivers Creek, Hastings",0.8,7,0.07,1,4,10,-38.307583,145.190201,Westernport
+Westernport,"Red Bluff Creek, Jam Jerrup",5.6,8,0.58,19,47,390,-38.333739,145.5536525,Westernport
+Westernport,"Sweetwater Creek, Frankston South",0.7,10,0.04,1,3,10,-38.1593843,145.1073288,Westernport
+Westernport,"Tarago River, Labertouche",0.6,9,0.07,6,15,22,-38.0368363,145.799908,Westernport
+Westernport,"Toomuc Creek, Pakenham",1,9,0.07,4,10,51,-38.0644085,145.4639837,Westernport
+Westernport,"Toomuc Creek, Rythdale",1.2,7,0.09,13,30,81,-38.1386501,145.4665466,Westernport
+Westernport,"Upper Tarago River, Neerim",1,10,0.03,7,12,360,-37.9992832,145.9219378,Westernport
+Westernport,"Warrangine Creek, Hastings",1.1,8,0.05,1,7,20,-38.2940731,145.1835888,Westernport
+Westernport,"Watsons Creek, Somerville",13.2,9,0.97,3,6,28,-38.2307207,145.216374,Westernport
+Westernport,"Wylies Drain, Devon Meadows",13.4,5,2.4,4,28,68,-38.1974145,145.3153647,Westernport
+Yarra,"Andersons Creek, Warrandyte",1.7,8,0.11,1,4,15,-37.7420996,145.2049282,Yarra
+Yarra,"Big Pats Creek, East Warburton",0.5,10,0.01,6,8,25,-37.741928,145.736069,Yarra
+Yarra,"Bruces Creek, Whittlesea",1,5,0.13,3,14,53,-37.5111669,145.1205669,Yarra
+Yarra,"Brushy Creek, Wonga Park",3.6,9,0.11,14,26,50,-37.7259348,145.2929381,Yarra
+Yarra,"Cockatoo Creek, Macclesfield",1.2,10,0.02,4,11,47,-37.8851834,145.4770078,Yarra
+Yarra,"Coranderrk Creek, Badger Creek",0.3,10,0.02,1,2,6,-37.6922709,145.5191148,Yarra
+Yarra,"Darebin Creek, Alphington",0.9,9,0.05,1,4,18,-37.7810539,145.0306948,Yarra
+Yarra,"Diamond Creek, Cottlesbridge",0.9,8,0.04,1,7,10,-37.4713077,144.7851531,Yarra
+Yarra,"Diamond Creek, Eltham",0.9,8,0.06,8,15,40,-37.6996816,145.1075351,Yarra
+Yarra,"Edgars Creek, Coburg",0.9,8,0.06,1,5,12,-37.7354297,144.9776807,Yarra
+Yarra,"Gardiners Creek, Ashwood",1.4,11,0.08,2,8,37,-37.863468,145.0999374,Yarra
+Yarra,"Gardiners Creek, Hawthorn",1.2,10,0.07,4,8,38,-37.8355111,145.0330127,Yarra
+Yarra,"Hoddles Creek, Launching Place",0.5,10,0.02,1,7,18,-37.7761214,145.578957,Yarra
+Yarra,"Jumping Creek, Wonga Park",0.6,8,0.04,1,4,15,-37.735615,145.2605237,Yarra
+Yarra,"Koonung Creek, Bulleen",1,7,0.09,2,8,54,-37.7809428,145.0786726,Yarra
+Yarra,"Little Yarra River, Yarra Junction",0.7,10,0.03,6,12,52,-37.7758851,145.6048173,Yarra
+Yarra,"McCrae Creek, Yellingbo",0.6,9,0.02,8,13,63,-37.8343126,145.5167049,Yarra
+Yarra,"McMahons Creek, McMahons Creek",0.4,10,0.02,1,3,6,-37.7007133,145.8313999,Yarra
+Yarra,"Merri Creek, Craigieburn",0.7,8,0.05,2,5,44,-37.5710091,144.9523826,Yarra
+Yarra,"Merri Creek, Yarra Bend",1.1,10,0.08,1,5,50,-37.4713077,144.7851531,Yarra
+Yarra,"Moonee Ponds Creek, Gladstone Park",1.2,5,0.11,1,7,14,-37.6876358,144.8863194,Yarra
+Yarra,"Moonee Ponds Creek, Flemington",1.9,9,0.08,4,11,37,-37.7883911,144.9332083,Yarra
+Yarra,"Mullum Mullum Creek, Warrandyte",1.7,8,0.1,5,13,28,-37.738014,145.218887,Yarra
+Yarra,"New Chum Creek, Healesville",3.1,9,0.02,1,4,10,-37.6315762,145.5163193,Yarra
+Yarra,"Olinda Creek, Lilydale",1,9,0.02,4,9,46,-37.7760064,145.3532756,Yarra
+Yarra,"Olinda Creek, Coldstream",1.6,9,0.05,12,22,32,-37.724602,145.379623,Yarra
+Yarra,"O'Shannassy River, Warburton East",0.4,10,0.01,1,1,6,-37.4713077,144.7851531,Yarra
+Yarra,"Pauls Creek, Tarrawarra",0.9,7,0.05,10,13,33,-37.654386,145.4418698,Yarra
+Yarra,"Plenty River, South Morang",0.7,8,0.05,6,10,17,-37.6513392,145.0891037,Yarra
+Yarra,"Plenty River, View Bank",0.9,7,0.07,8,19,61,-37.4713077,144.7851531,Yarra
+Yarra,"Ruffey Creek, Templestowe",1.4,9,0.05,1,3,16,-37.757084,145.1228573,Yarra
+Yarra,"Scotchman Creek, Malvern East",1.3,10,0.06,4,6,19,-37.87672,145.0797968,Yarra
+Yarra,"Shepherd Creek, Yellingbo",0.5,10,0.02,6,12,33,-37.8343126,145.5167049,Yarra
+Yarra,"Starvation Creek, McMahons Creek",0.4,10,0.01,1,4,8,-37.7252602,145.7596704,Yarra
+Yarra,"Steels Creek, Yarra Glen",0.6,9,0.03,1,4,49,-37.5397657,145.3894499,Yarra
+Yarra,"Stringybark Creek, Yering",0.6,7,0.02,4,9,17,-37.6823451,145.378051,Yarra
+Yarra,"Wandin Yallock Creek, Gruyere",1.1,9,0.02,1,6,14,-37.7387411,145.4590299,Yarra
+Yarra,"Watsons Creek, Kangaroo Road",0.3,7,0.01,1,2,6,-37.4713077,144.7851531,Yarra
+Yarra,"Watts River, Healesville",1,9,0.02,3,7,70,-37.6510391,145.4999089,Yarra
+Yarra,"Woori Yallock Creek, Yellingbo",0.9,9,0.03,6,11,48,-37.8914151,145.5242997,Yarra
+Yarra,"Woori Yallock Creek, Woori Yallock",1,9,0.04,12,24,37,-37.7799931,145.5303527,Yarra
+Yarra,"Yarra River, Millgrove",0.4,10,0.02,1,8,18,-37.7525496,145.6576584,Yarra
+Yarra,"Yarra River, Launching Place",0.6,10,0.02,3,10,29,-37.768258,145.5857101,Yarra
+Yarra,"Yarra River, Healesville",0.6,9,0.03,11,16,22,-37.6475483,145.5335877,Yarra
+Yarra,"Yarra River, Coldstream",0.8,8,0.04,11,18,31,-37.724602,145.379623,Yarra
+Yarra,"Yarra River, Warrandyte",0.7,9,0.03,6,10,20,-37.7366885,145.2225068,Yarra
+Yarra,"Yarra River, Kew",0.9,8,0.06,13,22,39,-37.7901134,145.0268242,Yarra
+Yarra,"Yarra River, Melbourne",0.9,8,0.06,9,15,44,-37.8193123,144.9683058,Yarra

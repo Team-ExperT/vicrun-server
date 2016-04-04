@@ -23,9 +23,21 @@ namespace :dataset do
       else
         coord = GoogleGeocoder.geocode(quality[1] + ', Victoria, Australia')
         if coord.success
+          area = quality[0]
+          region = quality[1]
+
+          # Remove word Catchment from area
+          new_area = area.split
+          quality[0] = new_area.first
+
+          # Simplify region
+          creek = region.split(' at ').first
+          suburb = region.split(', ').last
+          quality[1] = creek + ', ' + suburb
+          
           quality << coord.lat
           quality << coord.lng
-          quality << quality[0].delete(' ')
+          quality << quality[0] # :area_id is same as area as we have remove for Catchment
         end
       end
     end
