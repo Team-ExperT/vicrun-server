@@ -5,6 +5,12 @@ class Api::WaterQualitiesController < ApplicationController
     render text: 'hello world.'
   end
 
+  def get_all
+    qualities = WaterQuality.all
+
+    respond_with(qualities)
+  end
+
   def get_areas
     areas = WaterQuality.select(:area_id, :area).distinct.as_json
     new_areas = areas.each {|h| h.delete("id")}
