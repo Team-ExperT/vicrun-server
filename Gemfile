@@ -61,3 +61,12 @@ gem 'gmaps4rails'
 
 # DRY responders for API
 gem 'responders'
+
+# Json gem. Used to import dataset to db
+gem 'json', require: false
+
+# Redis for daily cache
+gem 'redis'
+gem 'redis-namespace'
+gem 'redis-rails'
+gem 'redis-rack-cache'
