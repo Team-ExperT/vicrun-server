@@ -1,6 +1,6 @@
 / only if you need custom infoboxes
-%div{:style => "width: 1800px;"}
-  #map{:style => "width: 1800px; height: 800px;"}
+%div{:style => "width: 640px;"}
+  #map{:style => "width: 640px; height: 640px;"}
 
 %table{:border => 1}
   %tr
@@ -16,6 +16,8 @@
     %td lat
     %td lng
     %td area_id
+    %td x
+    %td y
   - @qualities.each do |q|
     %tr
       %td
@@ -42,12 +44,15 @@
         = q.longitude
       %td
         = q.area_id
+      %td
+        = q.x
+      %td
+        = q.y
 
 :javascript
   $( document ).ready(function() {
     handler = Gmaps.build('Google');
     handler.buildMap({ provider: {}, internal: {id: 'map'}}, function(){
-      //markers = handler.addMarkers(#{raw @hash.to_json});
       markers = handler.addMarkers(#{raw @hash.to_json});
       handler.bounds.extendWith(markers);
       handler.fitMapToBounds();
