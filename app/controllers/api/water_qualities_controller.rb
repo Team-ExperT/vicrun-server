@@ -27,4 +27,9 @@ class Api::WaterQualitiesController < ApplicationController
   def get_current_version
     respond_with({'version' => 2.0})
   end
+
+  def get_daily_levels
+    levels = WaterQuality.daily_picks
+    respond_with(levels)
+  end
 end

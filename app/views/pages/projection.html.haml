@@ -1,0 +1,82 @@
+%div{:style => "width: 640px;"}
+  #map{:style => "width: 640px; height: 640px;"}
+%div{:style => "width: 800px; ", :id => "centre"}
+%div{:style => "width: 1920px; ", :id => "data"}
+
+:javascript
+  $( document ).ready(function() {
+    //nice sample http://gmaps-samples-v3.googlecode.com/svn/trunk/latlng-to-coord-control/latlng-to-coord-control.html
+    var map;
+    var arr = [];
+    var _pixel;
+
+    function init() {
+      var centerLatLng = new google.maps.LatLng(-37.868390301103005, 145.06064553515625);
+      //http://maps.google.com/maps/api/staticmap?center=-37.868390301103005, 145.06064553515625&zoom=9&size=640x640&key=AIzaSyCf4DQYHPXyLfdpxzBdtsuP3x3evefeCRY
+      map = new google.maps.Map(document.getElementById('map'), {
+        'zoom': 9,
+        'center': centerLatLng,
+        'mapTypeId': google.maps.MapTypeId.ROADMAP
+      });
+      
+      var infowindow = new google.maps.InfoWindow();
+      var LocationData = #{raw @qualities.to_json}
+
+      $(jQuery.parseJSON(JSON.stringify(LocationData))).each(function() {  
+        var latlng = new google.maps.LatLng(this.latitude, this.longitude);
+
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map,
+            title: this.area
+        });
+        var water_data = this;
+
+        google.maps.event.addListenerOnce(map,"projection_changed", (function(water_data) { return function() {
+
+          _pixel = fromLatLngToPoint(latlng, map);
+          arr.push({
+            id: water_data.id,
+            area: water_data.area,
+            region: water_data.region,
+            ni_p50: water_data.ni_p50,
+            ox_p50: water_data.ox_p50,
+            ph_p50: water_data.ph_p50,
+            ts_min: water_data.ts_min,
+            ts_p50: water_data.ts_p50,
+            ts_max: water_data.ts_max,
+            latitude: water_data.latitude,
+            longitude: water_data.longitude,
+            area_id: water_data.area_id,
+            x: _pixel.x,
+            y: _pixel.y
+          });
+          document.getElementById("data").innerHTML = JSON.stringify(arr);
+        }})(water_data));
+
+        google.maps.event.addListener(marker, 'click', function() {
+          
+          infowindow.setContent(_pixel.x+"<br />"+_pixel.y);
+          infowindow.open(map, this);
+        });
+
+      });
+
+      google.maps.event.addListener(map, 'dragend', function() { 
+        document.getElementById("centre").innerHTML = map.getCenter();
+      });
+
+    }
+
+    function fromLatLngToPoint(latLng, map) {
+      //http://krasimirtsonev.com/blog/article/google-maps-api-v3-convert-latlng-object-to-actual-pixels-point-object
+      var topRight = map.getProjection().fromLatLngToPoint(map.getBounds().getNorthEast());
+      var bottomLeft = map.getProjection().fromLatLngToPoint(map.getBounds().getSouthWest());
+      var scale = Math.pow(2, map.getZoom());
+      var worldPoint = map.getProjection().fromLatLngToPoint(latLng);
+      return new google.maps.Point((worldPoint.x - bottomLeft.x) * scale, (worldPoint.y - topRight.y) * scale);
+    }
+
+    // Register an event listener to fire when the page finishes loading.
+    google.maps.event.addDomListener(window, 'load', init);
+  });
