@@ -54,9 +54,11 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  get '/page/dataset', to: 'pages#dataset'
-  get '/page/convert', to: 'pages#convert'
-  get '/page/projection', to: 'pages#projection'
+  scope :page do
+    get '/dataset', to: 'pages#dataset'
+    get '/convert', to: 'pages#convert'
+    get '/projection', to: 'pages#projection'
+  end
 
   scope :api, defaults: { :format => 'json' } do
     get '/index', to: 'api/water_qualities#index'
