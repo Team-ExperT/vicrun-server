@@ -27,13 +27,10 @@ namespace :dataset do
           region = quality[1]
 
           # Remove word Catchment from area
-          new_area = area.split
-          quality[0] = new_area.first
+          quality[0] = simplify_area(area)
 
           # Simplify region
-          creek = region.split(' at ').first
-          suburb = region.split(', ').last
-          quality[1] = creek + ', ' + suburb
+          quality[1] = simplify_region(region)
           
           quality << coord.lat
           quality << coord.lng
@@ -41,6 +38,17 @@ namespace :dataset do
         end
       end
     end
+  end
+
+  def simplify_area(area)
+    new_area = area.split
+    new_area.first
+  end
+
+  def simplify_region(region)
+    creek = region.split(' at ').first
+    suburb = region.split(', ').last
+    creek + ', ' + suburb
   end
 
   task write: :environment do
