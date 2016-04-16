@@ -12,6 +12,8 @@ class CreateWaterQualities < ActiveRecord::Migration
       t.float   :latitude
       t.float   :longitude
       t.string  :area_id
+      t.integer :garbage_active
+      t.integer :water_active
       t.float   :x
       t.float   :y
 

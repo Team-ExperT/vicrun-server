@@ -28,10 +28,12 @@ ActiveRecord::Schema.define(version: 20160401010930) do
     t.float    "latitude"
     t.float    "longitude"
     t.string   "area_id"
+    t.integer  "garbage_active"
+    t.integer  "water_active"
     t.float    "x"
     t.float    "y"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
   end
 
 end

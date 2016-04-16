@@ -16,6 +16,8 @@
     %td lat
     %td lng
     %td area_id
+    %td garbage_active
+    %td water_active
     %td x
     %td y
   - @qualities.each do |q|
@@ -44,6 +46,10 @@
         = q.longitude
       %td
         = q.area_id
+      %td
+        = q.garbage_active
+      %td
+        = q.water_active
       %td
         = q.x
       %td

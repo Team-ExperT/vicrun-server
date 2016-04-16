@@ -25,11 +25,19 @@ class Api::WaterQualitiesController < ApplicationController
   end
 
   def get_current_version
-    respond_with({'version' => 3.0})
+    respond_with({'version' => 4.0})
   end
 
   def get_daily_levels
     levels = WaterQuality.daily_picks
+
+    levels.each do |level|
+      if level.garbage_active == 0 && level.water_active == 0
+        level.garbage_active = 1
+        level.water_active = 1
+      end
+    end
+
     respond_with(levels)
   end
 
