@@ -65,5 +65,6 @@ Rails.application.routes.draw do
     get '/get_regions/:area_name', to: 'api/water_qualities#get_regions'
     get '/get_current_version', to: 'api/water_qualities#get_current_version'
     get '/get_daily_levels', to: 'api/water_qualities#get_daily_levels'
+    get '/get_closest_stage', to: 'api/water_qualities#get_closest_stage'
   end
 end

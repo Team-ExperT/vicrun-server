@@ -32,4 +32,11 @@ class Api::WaterQualitiesController < ApplicationController
     levels = WaterQuality.daily_picks
     respond_with(levels)
   end
+
+  def get_closest_stage
+    coordinate = params[:coordinate]
+    player_location = coordinate.split(',')
+    stage = WaterQuality.closest(origin: player_location)
+    respond_with(stage)
+  end
 end
