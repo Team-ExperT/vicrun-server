@@ -3,8 +3,8 @@ require 'csv'
 include Geokit::Geocoders
 
 namespace :dataset do
-  desc 'Geocode given dataset'
-  task :geocode => [:read, :label_difficulty, :write] do
+  desc 'Prepare given raw dataset'
+  task :prepare => [:read, :label_difficulty, :write] do
     puts "Dataset is ready."
   end
 
