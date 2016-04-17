@@ -9,11 +9,13 @@ class WaterQuality < ActiveRecord::Base
     data = []
 
     keys.each do |key|
-      rand_id = self.get_rand_id(key)
+      n = 1
+      rand_id = self.get_rand_id(1, key)
       while true
         if ids.include?(rand_id)
           time = Time.new
-          rand_id = self.get_rand_id(key*time.sec)
+          rand_id = self.get_rand_id(n, key)
+          n = n + 1
         else
           ids << rand_id
           data << self.find(rand_id)
@@ -30,8 +32,16 @@ class WaterQuality < ActiveRecord::Base
 
   private
 
-  def self.get_rand_id(key)
+  def self.get_rand_id(n, key)
     time = Time.new
-    rand_id = ((time.month*key) + (time.year*key) + (time.day)) % 129
+    rand_id = (calc_d(n, time.month, key) + 
+      calc_d(n, time.year, key) +
+      calc_d(n, time.day, key)) % 129
+  end
+
+  def self.calc_d(n, d, key) 
+    n.times do
+      d = d * key
+    end
   end
 end
