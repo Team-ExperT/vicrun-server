@@ -10,11 +10,10 @@ class WaterQuality < ActiveRecord::Base
 
     keys.each do |key|
       n = 1
-      rand_id = self.get_rand_id(1, key)
       while true
+        rand_id = self.get_rand_id(1, key)
         if ids.include?(rand_id)
           time = Time.new
-          rand_id = self.get_rand_id(n, key)
           n = n + 1
         else
           ids << rand_id
