@@ -11,7 +11,7 @@ class WaterQuality < ActiveRecord::Base
     keys.each do |key|
       n = 1
       while true
-        rand_id = self.get_rand_id(1, key)
+        rand_id = self.get_rand_id(n, key)
         if ids.include?(rand_id)
           time = Time.new
           n = n + 1
@@ -29,7 +29,7 @@ class WaterQuality < ActiveRecord::Base
     # end
   end
 
-  private
+  # private
 
   def self.get_rand_id(n, key)
     time = Time.new
@@ -42,5 +42,6 @@ class WaterQuality < ActiveRecord::Base
     n.times do
       d = d * key
     end
+    d
   end
 end
