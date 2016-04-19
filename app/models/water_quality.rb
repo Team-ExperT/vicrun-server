@@ -29,7 +29,7 @@ class WaterQuality < ActiveRecord::Base
     # end
   end
 
-  # private
+  private
 
   def self.get_rand_id(n, key)
     time = Time.new
