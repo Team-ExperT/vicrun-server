@@ -47,4 +47,11 @@ class Api::WaterQualitiesController < ApplicationController
     stage = WaterQuality.closest(origin: player_location)
     respond_with(stage)
   end
+
+  def get_closest_catchment
+    pcode = params[:pcode]
+    location = Location.find_by(pcode: pcode)
+    catchment = WaterQuality.closest(origin: [location.lat, location.long])
+    respond_with(catchment)
+  end
 end
