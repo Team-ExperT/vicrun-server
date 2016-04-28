@@ -13,9 +13,11 @@
     %td ts_min
     %td ts_p50
     %td ts_max
-    %td lat
-    %td lng
+    %td latitude
+    %td longitude
     %td area_id
+    %td score_avg
+    %td score_rank
     %td garbage_active
     %td water_active
     %td x
@@ -46,6 +48,10 @@
         = q.longitude
       %td
         = q.area_id
+      %td
+        = q.score_avg
+      %td
+        = q.score_rank
       %td
         = q.garbage_active
       %td

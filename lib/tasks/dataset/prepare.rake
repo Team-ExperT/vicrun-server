@@ -17,11 +17,13 @@ namespace :dataset do
     puts "Geocoding."
     @qualities.each_with_index do |quality, index|
       if index == 0
-        quality << "latitude"
-        quality << "longitude"
-        quality << "area_id"
-        quality << "garbage_active"
-        quality << "water_active"
+        quality << "latitude"       # col[9]
+        quality << "longitude"      # col[10]
+        quality << "area_id"        # col[11]
+        quality << "score_avg"      # col[12]
+        quality << "score_rank"     # col[13]
+        quality << "garbage_active" # col[14]
+        quality << "water_active"   # col[15]
       else
         coord = GoogleGeocoder.geocode(quality[2] + ', Victoria, Australia')
         if coord.success
@@ -40,6 +42,8 @@ namespace :dataset do
 
           # Add difficulty columns
           difficulty = calculate_difficulty(quality)
+          quality << difficulty[:average]
+          quality << 0 # filled by :label_difficulty
           quality << difficulty[:garbage]
           quality << difficulty[:water]
         end
@@ -64,7 +68,7 @@ namespace :dataset do
 
     garbage = Math::sqrt(quality[3].to_f * quality[4].to_f * quality[5].to_f * 20) * 10
     water = 23 - Math::sqrt(quality[6].to_f + quality[8].to_f)
-    {:garbage => garbage, :water => water }
+    {:average => (garbage + water) / 2, :garbage => garbage, :water => water }
   end
 
   task :label_difficulty do
@@ -72,23 +76,29 @@ namespace :dataset do
     shifted = @qualities.shift
     
     # Label garbage
-    @qualities.sort_by! { |q| q[12].to_f }
+    @qualities.sort_by! { |q| q[14].to_f }
     @qualities.each_with_index do |quality, index|
       if index < 64
-        quality[12] = 1
+        quality[14] = 1
       else
-        quality[12] = 0
+        quality[14] = 0
       end
     end
     
     # Label water
-    @qualities.sort_by! { |q| q[13].to_f }
+    @qualities.sort_by! { |q| q[15].to_f }
     @qualities.each_with_index do |quality, index|
       if index < 64
-        quality[13] = 1
+        quality[15] = 1
       else
-        quality[13] = 0
+        quality[15] = 0
       end
+    end
+
+    # Rank score avg
+    @qualities.sort_by! { |q| q[12].to_f }.reverse!
+    @qualities.each_with_index do |quality, index|
+      quality[13] = index + 1
     end
 
     # Put back the header
