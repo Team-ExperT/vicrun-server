@@ -38,6 +38,14 @@ class Api::WaterQualitiesController < ApplicationController
       end
     end
 
+    option = Option.find_by(:key => 'monash_expo_mode')
+    monash_expo_mode = option.value
+
+    if monash_expo_mode.eql? "true"
+      monash_stage = {"garbage_active":1,"water_active":1,"id":999,"area":"Monash University","region":"Monash Caulfield","x":315,"y":319}
+      levels.push(monash_stage)
+    end
+
     respond_with(levels)
   end
 
