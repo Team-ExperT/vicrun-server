@@ -5,24 +5,24 @@ class Api::WaterQualitiesController < ApplicationController
     render text: 'hello world.'
   end
 
-  def get_all
-    qualities = WaterQuality.all
+  # def get_all
+  #   qualities = WaterQuality.all
 
-    respond_with(qualities)
-  end
+  #   respond_with(qualities)
+  # end
 
-  def get_areas
-    areas = WaterQuality.select(:area_id, :area).distinct.as_json
-    new_areas = areas.each {|h| h.delete("id")}
+  # def get_areas
+  #   areas = WaterQuality.select(:area_id, :area).distinct.as_json
+  #   new_areas = areas.each {|h| h.delete("id")}
 
-    respond_with(new_areas)
-  end
+  #   respond_with(new_areas)
+  # end
 
-  def get_regions
-    regions = WaterQuality.where(area_id: params[:area_name])
+  # def get_regions
+  #   regions = WaterQuality.where(area_id: params[:area_name])
 
-    respond_with(regions)
-  end
+  #   respond_with(regions)
+  # end
 
   def get_current_version
     respond_with({'version' => 4.0})
@@ -41,11 +41,11 @@ class Api::WaterQualitiesController < ApplicationController
     respond_with(levels)
   end
 
-  def get_closest_stage
-    coordinate = params[:coordinate]
-    stage = get_closest(coordinate.split(','))
-    respond_with(stage)
-  end
+  # def get_closest_stage
+  #   coordinate = params[:coordinate]
+  #   stage = get_closest(coordinate.split(','))
+  #   respond_with(stage)
+  # end
 
   def get_closest_catchment
     pcode = params[:pcode]
