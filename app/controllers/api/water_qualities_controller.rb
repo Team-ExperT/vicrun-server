@@ -42,7 +42,20 @@ class Api::WaterQualitiesController < ApplicationController
     monash_expo_mode = option.value
 
     if monash_expo_mode.eql? "true"
-      monash_stage = {"garbage_active" => 1,"water_active" => 1,"id" => 999,"area" => "Monash University","region" => "Monash Caulfield","x" => 315,"y" => 319}
+      monash_stage = {
+        "garbage_active"  => 1,
+        "water_active"    => 1,
+        "id"              => 999,
+        "area"            => "Monash University",
+        "region"          => "Monash Caulfield",
+        "x"               => 315,
+        "y"               => 319,
+        "ni_p50"          => 13.4,
+        "ox_p50"          => 11,
+        "ph_p50"          => 2.4,
+        "ts_min"          => 0,
+        "ts_p50"          => 47,
+        "ts_max"          => 0}
       levels.push(monash_stage)
     end
 
