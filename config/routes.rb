@@ -69,6 +69,7 @@ Rails.application.routes.draw do
     get '/get_daily_levels', to: 'api/water_qualities#get_daily_levels'
     # get '/get_closest_stage', to: 'api/water_qualities#get_closest_stage'
     get '/get_closest_catchment/:pcode', to: 'api/water_qualities#get_closest_catchment'
+    get '/get_time', to: 'api/water_qualities#get_time'
   end
 
   get '/options/:key/edit', to: 'options#edit'

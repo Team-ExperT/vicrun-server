@@ -62,6 +62,11 @@ class Api::WaterQualitiesController < ApplicationController
     respond_with(catchment)
   end
 
+  def get_time
+    time = Time.zone.now.strftime("%d/%m/%Y %H:%M %Z%z")
+    respond_with(time)
+  end
+
   private
   def get_closest(location)
     WaterQuality.closest(origin: location)
