@@ -17,6 +17,7 @@ require 'json'
 # end
 
 # 2nd chunk
+# 1. Import WaterQualities
 file = File.read("#{Rails.root.join('db', 'data')}/water_quality.pixelated.json")
 data_hash = JSON.parse(file)
 
@@ -24,8 +25,15 @@ data_hash.each do |data|
   WaterQuality.create!(data)
 end
 
+# 2. Import Locations
 SmarterCSV.process ( "#{Rails.root.join('db', 'data')}/location.csv") do |chunk|
   chunk.each do |data_hash|
     Location.create!(data_hash)
   end
 end
+
+# 3. Import Options
+option = Option.new
+option.key = "monash_expo_mode"
+option.value = "true"
+option.save!
