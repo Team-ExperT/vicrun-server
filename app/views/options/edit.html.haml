@@ -1,0 +1,11 @@
+= form_for @option do |f|
+  = f.label :key
+  = f.object.key
+  %br
+  = f.label :value
+  = f.text_field :value
+  %br
+  = label_tag(:code, "code")
+  = text_field_tag :code
+  %br
+  = f.submit

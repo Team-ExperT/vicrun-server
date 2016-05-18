@@ -70,4 +70,7 @@ Rails.application.routes.draw do
     # get '/get_closest_stage', to: 'api/water_qualities#get_closest_stage'
     get '/get_closest_catchment/:pcode', to: 'api/water_qualities#get_closest_catchment'
   end
+
+  get '/options/:key/edit', to: 'options#edit'
+  patch '/options/:id', to: 'options#update', as: :option
 end
