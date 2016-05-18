@@ -29,11 +29,7 @@ class OptionsController < ApplicationController
     key_hour = get_key_hour(time.hour).to_s
     key = "57"+day+key_hour
 
-    if code == key
-      true
-    else
-      false
-    end
+    code == key ? true : false
   end
 
   def get_key_hour(hour)
