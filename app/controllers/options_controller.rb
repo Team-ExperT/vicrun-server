@@ -33,11 +33,11 @@ class OptionsController < ApplicationController
   end
 
   def get_key_hour(hour)
-    if hour.between?(1,6)
+    if hour.between?(0,5)
       1
-    elsif hour.between?(7,12)
+    elsif hour.between?(6,11)
       2
-    elsif hour.between?(13,18)
+    elsif hour.between?(12,17)
       3
     else
       4
